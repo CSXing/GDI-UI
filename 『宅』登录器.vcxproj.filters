@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09e71ed5-4c2b-4b25-8a04-ba603296cbc1}</UniqueIdentifier>
+      <Extensions>cpp;.h;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Header">
+      <UniqueIdentifier>{b0bd6bbc-6443-4e69-85ff-2341c983e23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{68503b44-03f2-465e-9513-5b5570599f1b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="xUI">
+      <UniqueIdentifier>{c5f9a5fa-6b02-46c0-bd23-5f310b44d48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xUI\xUI_h">
+      <UniqueIdentifier>{79f30cb8-aca2-452c-b891-2e7b18d986b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="『宅』.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xUI\xContainer.h">
+      <Filter>xUI\xUI_h</Filter>
+    </ClInclude>
+    <ClInclude Include="xUI\xDraw.h">
+      <Filter>xUI\xUI_h</Filter>
+    </ClInclude>
+    <ClInclude Include="xUI\xWinForm.h">
+      <Filter>xUI\xUI_h</Filter>
+    </ClInclude>
+    <ClInclude Include="xUI\zHAi_WF.h">
+      <Filter>xUI\xUI_h</Filter>
+    </ClInclude>
+    <ClInclude Include="xUI\xLabel.h">
+      <Filter>xUI\xUI_h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="『宅』.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xUI\xWinForm.cpp">
+      <Filter>xUI</Filter>
+    </ClCompile>
+    <ClCompile Include="xUI\xDraw.cpp">
+      <Filter>xUI</Filter>
+    </ClCompile>
+    <ClCompile Include="xUI\zHAi_WF.cpp">
+      <Filter>xUI</Filter>
+    </ClCompile>
+    <ClCompile Include="xUI\xContainer.cpp">
+      <Filter>xUI</Filter>
+    </ClCompile>
+    <ClCompile Include="xUI\xLabel.cpp">
+      <Filter>xUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="『宅』.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Main.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
